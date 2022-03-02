@@ -1,4 +1,5 @@
 import "./App.css";
+import Video from "./Video";
 import Dictionary from "./Dictionary";
 export default function App() {
   return (
@@ -7,6 +8,11 @@ export default function App() {
         <header className="App-header">
           <h1>Dictionary App</h1>
         </header>
+        <div className="Video-Border">
+          <div className="Video">
+            <Video />
+          </div>
+        </div>
         <main>
           <Dictionary />
         </main>
