@@ -1,5 +1,4 @@
-.Meanings section,
-h3 {
+.Meanings section {
   margin-top: 10px;
   text-align: left;
   border-radius: 8px;
@@ -13,6 +12,7 @@ h3 {
   font-size: 26px;
   margin: 0;
   padding: 0;
+  background-color: rgb(218, 218, 218);
 }
 .Meanings .examples {
   color: rgb(102, 102, 102);

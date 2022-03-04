@@ -16,8 +16,28 @@ export default function App() {
         <main>
           <Dictionary />
         </main>
-        <footer className="App-footer">Coded by Hannah Sinclair</footer>
-      </div>
+        <footer className="App-footer">
+          {" "}
+          This project was coded by Hannah Sinclair and is{" "}
+          <a
+            href="https://github.com/hannahsinclair054/dictionary-project"
+            target="_blank"
+            rel="noreferrer"
+            className="GitHub-Link"
+          >
+            open-sourced on GitHub
+          </a>{" "}
+          and is{" "}
+          <a
+            href="https://www.netlify.com/"
+            target="_blank"
+            rel="noreferrer"
+            className="Netlify-Link"
+          >
+            hosted on Netlify
+          </a>{" "}
+        </footer>
+      </div>{" "}
     </div>
   );
 }

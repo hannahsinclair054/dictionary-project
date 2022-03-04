@@ -1,6 +1,7 @@
 body {
   background-color: #f9f7fe;
 }
+
 .App .container {
   margin-top: 10px;
   margin: 0 auto;
@@ -34,4 +35,21 @@ h1 {
 
 .App-footer {
   margin: 10px;
+}
+footer a {
+  color: rgb(0, 0, 0);
+  text-decoration-line: none;
+}
+
+.GitHub-Link:hover {
+  color: rgb(0, 0, 0);
+  text-shadow: 0.5px 0.15px rgb(0, 0, 0);
+  letter-spacing: 0.5px;
+  text-decoration: underline;
+}
+.Netlify-Link:hover {
+  color: rgb(0, 0, 0);
+  text-shadow: 0.5px 0.15px rgb(0, 0, 0);
+  letter-spacing: 0.5px;
+  text-decoration: underline;
 }

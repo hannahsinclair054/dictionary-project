@@ -7,7 +7,7 @@ class Video extends Component {
       <div className="player-wrapper">
         <ReactPlayer
           className="react-player fixed-bottom"
-          url="videos/aaron-burden-fgmf2Eyrwm4-unsplash.mp4"
+          url="videos/aaron-burden-fgmf2Eyrwm4-unsplash-best.mp4"
           width="100%"
           height="100%"
           controls={true}
