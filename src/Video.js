@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+
 import ReactPlayer from "react-player";
 
 class Video extends Component {
@@ -6,7 +7,7 @@ class Video extends Component {
     return (
       <div className="player-wrapper">
         <ReactPlayer
-          className="react-player fixed-bottom"
+          className="react-player "
           url="videos/aaron-burden-fgmf2Eyrwm4-unsplash-best.mp4"
           width="100%"
           height="100%"
