@@ -1,5 +1,5 @@
 body {
-  background-color: #f9f7fe;
+  background-color: #1a1a1a !important;
 }
 
 .App .container {
@@ -31,25 +31,34 @@ body {
 h1 {
   font-weight: bolder;
   font-size: 40px;
+  color: #ffff;
 }
 
 .App-footer {
   margin: 10px;
+  color: #fff;
 }
 footer a {
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   text-decoration-line: none;
 }
 
 .GitHub-Link:hover {
-  color: rgb(0, 0, 0);
-  text-shadow: 0.5px 0.15px rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  text-shadow: 0.5px 0.15px rgb(255, 255, 255);
   letter-spacing: 0.5px;
   text-decoration: underline;
 }
 .Netlify-Link:hover {
-  color: rgb(0, 0, 0);
-  text-shadow: 0.5px 0.15px rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  text-shadow: 0.5px 0.15px rgb(255, 255, 255);
+  letter-spacing: 0.5px;
+  text-decoration: underline;
+}
+
+.Pexels-Link:hover {
+  color: rgb(255, 255, 255);
+  text-shadow: 0.5px 0.15px rgb(255, 255, 255);
   letter-spacing: 0.5px;
   text-decoration: underline;
 }
