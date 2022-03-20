@@ -8,9 +8,10 @@ export default function Synonyms(props) {
           return (
             <p>
               Similar:{" "}
-              <ul key={index}>
-                <li> {synonyms}</li>
-              </ul>
+              <span className="word" key={index}>
+                {" "}
+                {synonyms}
+              </span>
             </p>
           );
         })}

@@ -22,11 +22,11 @@ export default function Dictionary() {
     axios.get(apiUrl).then(handleDictionaryResponse);
     const pexelsApiKey =
       "563492ad6f917000010000013588736b682c4c379ee60602d94b8924";
-    let pexelsApiUrl = `https://api.pexels.com/v1/search?query=${keyword}&per_page=9`;
+    let pexelsApiUrl = `https://api.pexels.com/v1/search?query=${keyword}&per_page=24`;
     let headers = { Authorization: `Bearer ${pexelsApiKey}` };
     axios
       .get(pexelsApiUrl, {
-        header: headers,
+        headers: headers,
       })
       .then(handlePexelsResponse);
   }
@@ -36,14 +36,17 @@ export default function Dictionary() {
   }
   return (
     <div className="Dictionary">
-      <form onSubmit={search}>
-        <input
-          className="searchBar"
-          type="search"
-          placeholder="Please enter a word"
-          onChange={handleKeywordChange}
-        />
-      </form>
+      <section className="Searches">
+        <form onSubmit={search}>
+          <input
+            className="searchBar"
+            type="search"
+            placeholder="Please enter a word"
+            onChange={handleKeywordChange}
+          />
+        </form>
+        <p>Example: food, life, tea, football</p>
+      </section>
       <Results results={results} />
       <Photos photos={photos} />
     </div>
