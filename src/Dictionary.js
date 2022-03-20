@@ -45,7 +45,7 @@ export default function Dictionary() {
             onChange={handleKeywordChange}
           />
         </form>
-        <p>Example: food, life, tea, football</p>
+        <p>Example: food, life, tea, football, night, water, ect...</p>
       </section>
       <Results results={results} />
       <Photos photos={photos} />
